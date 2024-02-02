@@ -10,7 +10,7 @@ This folder contains estimation code and plot code for the temporal data analysi
 
 * Demo_data.csv: a demo dataset, the columns correspond to the $i$-th day, the $t$-th time interval, the reward $y_{it}$ , and the two state variables $S_{1, i,t}$ and $S_{2, i,t}$
 
-  ![](excelscreenshot.png)
+  ![Demo_data.csv](excelscreenshot.png)
 
 *  settings_multiple_S_simu.py: the estimation and testing function for the conditional quantile treatment effect.
 
