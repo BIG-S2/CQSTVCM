@@ -42,16 +42,16 @@ This folder contains the simulation demo code for simulation studies in Section 
 
   simu_data= generate_temporalData(40, 24, 1, 1, 0.5, 1, 0,0)
 
-* settings_multiple.py: a simulation demo for the setting $(NN=40, TI=1, \tau=0.5, \delta=0)$ including generating data, estimation of QDE, QIE and the corresponding testing results. The generated data are based on the above simu_demo_data.csv.
+* settings_multiple.py: a simulation demo for the setting $\small(NN=40, TI=1, \tau=0.5, \delta=0)$ including generating data, estimation of QDE, QIE and the corresponding testing results. The generated data are based on the above simu_demo_data.csv.
 
 * Competing methods
 
-  *   noInterference_compare.py: the main estimation and testing function for the ``NoInterference'' method.
-  * settings_noInterference_compare: a simulation demo for the setting $(NN=40, TI=1, \tau=0.5, \delta=0)$ for the ``NoInterference'' method.
+  *   noInterference_compare.py: the main estimation and testing function for the ``NoInterference`` method.
+  * settings_noInterference_compare: a simulation demo for the setting $\small(NN=40, TI=1, \tau=0.5, \delta=0)$ for the ``NoInterference`` method.
   * Linear_multiple_S.py: the main estimation and testing function for the ``ATE'' method.
-  * settings_linear.py: a simulation demo for the setting $(NN=40, TI=1, \tau=0.5, \delta=0)$ for the ``ATE'' method.
+  * settings_linear.py: a simulation demo for the setting $(NN=40, TI=1, \tau=0.5, \delta=0)$ for the ``ATE`` method.
 
-* ResidMultiple_NN_40_TI_1: this folder contains a simulation output sample for the setting$(NN=40, TI=1, \tau=0.5, \delta=0)$. We use the variables  'QTE_indicator_RightSide', 'QDE_indicator_RightSide', 'QIE_indicator_RightSide'  to calculate the empirical rejection rates of quantile treatment effect, the direct quantile treatment effect and the indirect quantile treatment effect.
+* ResidMultiple_NN_40_TI_1: this folder contains a simulation output sample for the setting $\small(NN=40, TI=1, \tau=0.5, \delta=0)$. We use the variables  'QTE_indicator_RightSide', 'QDE_indicator_RightSide', 'QIE_indicator_RightSide'  to calculate the empirical rejection rates of quantile treatment effect, the direct quantile treatment effect and the indirect quantile treatment effect.
 
 * Figures6_7.R: code for generating Figures 6-7 in the paper.
 
